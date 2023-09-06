@@ -1,0 +1,67 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+.dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: rgb(51, 169, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #161616;
+
+  }
+  
+  p {
+    font-size: 30px;
+    color: #0c0c0c;
+    font-family: 'Pacifico', cursive;
+}
+  
+  img {
+    width: 80%;
+  }
+  .btn{
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    background-color: rgb(24, 23, 20);
+    color:white;
+  }
+
+ /* Add this CSS for the jumping text effect */
+h1#res {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #ce1e1ec1; /* You can change the text color as needed */
+    margin: 20px 0;
+    animation: jump 0.5s ease infinite alternate;
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px); /* Adjust the jump height as needed */
+    }
+  }
+  
