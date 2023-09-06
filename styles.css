@@ -42,9 +42,9 @@
     width: 200px;
     border-radius: 5px;
     font-family: 'Indie Flower', cursive;
-    font-size: 30px;
-    background-color: rgb(24, 23, 20);
-    color:white;
+    font-size: 35px;
+    background-color:#e3f119c1;
+    color:rgb(23, 21, 21);
   }
 
  /* Add this CSS for the jumping text effect */
