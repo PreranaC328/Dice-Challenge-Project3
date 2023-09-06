@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('images/back2.jpg');
   }
   
   h1 {
@@ -51,7 +52,7 @@ h1#res {
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 100px;
-    color: #ce1e1ec1; /* You can change the text color as needed */
+    color: #e3f119c1; /* You can change the text color as needed */
     margin: 20px 0;
     animation: jump 0.5s ease infinite alternate;
   }
